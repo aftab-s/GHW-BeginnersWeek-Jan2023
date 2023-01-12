@@ -1,0 +1,30 @@
+/* First link the style.css file to the index.html file
+then select elements from the html file that needs to be styled.
+Selection can be done in many ways. First way is to select the tag 
+that's nearest to the element that needs to be styled. */
+body {
+    background-color: rgb(77, 19, 136);
+    color: white;
+}
+
+.Type-In {
+    color: blueviolet;
+}
+
+.MCQ {
+    color: lime;
+}
+
+.Multi-Choice {
+    color: rgb(2, 101, 177);
+}
+
+.Identification {
+    color: rgb(201, 82, 3);
+}
+
+button {
+    color: white;
+    background-color: rgb(80, 5, 70);
+    border: 2px solid rgb(124, 230, 249);
+}

@@ -1,0 +1,82 @@
+<!-- The Skeleton of a Website -->
+<!DOCTYPE html>
+<!-- Mentioning That The Following is an HTML File -->
+<html lang="en">
+    <!-- The Whole HTML File Resides Inside <html></html> Tag -->
+    <!-- More Like Opening and Closing Braces -->
+    <!-- lang='en' Means That The Website Being Made Will Be in English -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Mentioning That The HTML Page Will Be Fit To The Whole Screen Of 
+        The Device Being Used And Initially, The Screen Will Be In Unscaled Mode (ie; Scale = 1) -->
+        <link rel="stylesheet" href="style.css">     
+        <!-- Importing The CSS File To HTML File -->
+        <!-- Relation and The Reference File Must Be Included -->
+        <title>GHW-Intro-HTML-CSS</title>
+    </head>
+
+    <body>
+        <!-- To Show Stuff On The Screen -->
+        <!-- The 'class' Attribute is Given So That It Becomes 
+        Easier to Handle CSS File. Choose The Corresponding Class
+        That Needs to Be Styled and Not The Nearby Tag -->
+        <h1 class="Type-In">Q1 :</h1>
+        <h2>Which Number Comes Next? 2, 4, 6, 8,...</h2>
+        <!-- There Are 6 Levels of Headings. Beyond 6 (It Wont Be An Error) The Browser Just Ignores The Tag -->
+        <input type="text" />
+        <!-- Input Tag is Self Closing 
+        There Are Many Input Types Like Button, Text, Numbers, etc -->
+        <button>Click Me!</button>
+
+        <h1 class="MCQ">Q2 :</h1>
+        <h2>What is The Capital of India?</h2>
+        <input type="radio" name="Q2" value="Delhi">        <!-- More Like The Dot Selection (Clickable Circles) -->
+        <label>Delhi</label>                                <!-- Can Also Be "<input type="radio">Delhi" But That Not a Valid Statement -->        
+        <input type="radio" name="Q2" value="Mumbai">
+        <label>Mumbai</label>                               <!-- Makes a Valid HTML -->
+        <input type="radio" name="Q2" value="Trivandrum">
+        <label>Trivandrum</label>
+        <!-- The 'value="Trivandrum"' Attribute Is Given Such That The Browser
+        Knows The Real Value of That Input Type. The Label Tag is Just For The
+        Users To Know What's What -->
+        <input type="radio" name="Q2" value="Cochin">
+        <label>Cochin</label>
+        <!-- Only One Should Be Clickable/Selected Instead of All Of Them
+        Or In Other Words, It All The Options Must Be Unique. That's Why
+        The ' "name="q2" ' Attribute is Given To All The Inputs. As Per
+        HTML, It'll View All To Be The Same And Thus Will Allow Only One To Click Upon -->
+
+        <h1 class="Multi-Choice">Q3 :</h1>
+        <h2>Which 2 Characters Are In The Same SciFi Franchise?</h2>
+        <input type="checkbox" name="Q2" value="Obi-Wan Kenobi">        
+        <label>Obi-Wan Kenobi</label>                                        
+        <input type="checkbox" name="Q2" value="Iron-Man">
+        <label>Iron-Man</label>                               
+        <input type="checkbox" name="Q2" value="Mandalorian">
+        <label>Mandalorian</label>
+        <input type="checkbox" name="Q2" value="Bruce Wayne">
+        <label>Bruce Wayne</label>
+        <!-- Type "checkbox" Allows The User To Select Multiple Options -->
+
+        <h1 class="Identification">Q4 :</h1>
+        <h2>Identify The Shape</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Regular_triangle.svg/800px-Regular_triangle.svg.png"
+        alt="Shape Image" height="100" width="100">
+        <!-- img Tag is Used To Show Images in HTML. It's Also a Self-Closing Tag 
+        img Tag Must Have 4 Attributes : src(Source), alt(Alternate), hight, width -->
+        <!-- 'alt' Will Show The Alternate Text Corresponding to an Image if The
+        Image does not load. -->
+        <!-- The 'alt' Text Can Be Seen Through "Inspect Mode" In Any Browser -->
+        <input type="radio" name="Q4" value="Circle">        
+        <label>Circle</label>                                        
+        <input type="radio" name="Q4" value="Triangle">
+        <label>Triangle</label>                               
+        <input type="radio" name="Q4" value="Square">
+        <label>Square</label>
+        <input type="radio" name="Q4" value="Hexagon">
+        <label>Hexagon</label>
+
+    </body>
+
+</html>
