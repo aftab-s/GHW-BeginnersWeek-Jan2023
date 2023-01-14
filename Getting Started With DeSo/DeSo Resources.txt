@@ -1,0 +1,59 @@
+Running The React App
+
+Login - Results
+
+{
+  "user": {
+    "hasExtraText": false,
+    "btcDepositAddress": "1M4XFou2iy2rAe3hUn6NzshWY1BMfShYUR",
+    "ethDepositAddress": "0x9362277CD0A7391d37cA6D2D5b117533FB4F0073",
+    "version": 2,
+    "encryptedSeedHex": "5beb784cd69a4bc81355fbb36d67f76d559cb65fa972aaaab1659d9737614884cd9e396e1ab390dceed61e75871384c357ea4141d960bed61844f580aef5ee45",
+    "network": "mainnet",
+    "loginMethod": "DESO",
+    "accessLevel": 4,
+    "accessLevelHmac": "04078244a50514eac5e21d53c9d4f8de821943e8a0e52488dcebd565b66cf325"
+  },
+  "key": "BC1YLixee7F6oRwj1cYU78jfXfvWBWaBFByCqHr9BB2r8uNe87T1Sx8"
+}
+
+Get User - Results
+
+{
+  "Profile": {
+    "PublicKeyBase58Check": "BC1YLixee7F6oRwj1cYU78jfXfvWBWaBFByCqHr9BB2r8uNe87T1Sx8",
+    "Username": "aftab_s__",
+    "Description": "I am just a passionate, optimistic, and artistic-minded undergraduate.",
+    "IsHidden": false,
+    "IsReserved": false,
+    "IsVerified": false,
+    "Comments": null,
+    "Posts": null,
+    "CoinEntry": {
+      "CreatorBasisPoints": 10000,
+      "DeSoLockedNanos": 0,
+      "NumberOfHolders": 0,
+      "CoinsInCirculationNanos": 0,
+      "CoinWatermarkNanos": 0,
+      "BitCloutLockedNanos": 0
+    },
+    "DAOCoinEntry": {
+      "NumberOfHolders": 0,
+      "CoinsInCirculationNanos": "0x0",
+      "MintingDisabled": false,
+      "TransferRestrictionStatus": "unrestricted"
+    },
+    "CoinPriceDeSoNanos": 0,
+    "CoinPriceBitCloutNanos": 0,
+    "UsersThatHODL": null,
+    "IsFeaturedTutorialWellKnownCreator": false,
+    "IsFeaturedTutorialUpAndComingCreator": false,
+    "ExtraData": {
+      "LargeProfilePicURL": "https://images.deso.org/ae2cd3a7516064f824594255f7edd3f8bf1d516d60ff3c8b450d77f44554e19c.webp"
+    },
+    "DESOBalanceNanos": 46314,
+    "BestExchangeRateDESOPerDAOCoin": 0
+  },
+  "IsBlacklisted": false,
+  "IsGraylisted": false
+}
